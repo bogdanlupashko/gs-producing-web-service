@@ -24,12 +24,12 @@ public class AlgorithmRepository {
 		algorithmList.add(changeABvalues);
 
 		Algorithm createTimeSheet = new Algorithm();
-		changeABvalues.setName("Time sheet creator");
-		changeABvalues.setAuthor("Branch's chef");
-		changeABvalues.setDescription("Clones working time to 6 days in the week, and split it by pipeline");
-		changeABvalues.setAnswer("a*7");
+		createTimeSheet.setName("Time sheet creator");
+		createTimeSheet.setAuthor("Branch's chef");
+		createTimeSheet.setDescription("Clones working time to 6 days in the week, and split it by pipeline");
+		createTimeSheet.setAnswer("a*7");
 
-		algorithmList.add(changeABvalues);
+		algorithmList.add(createTimeSheet);
 	}
 
 	public Algorithm findAlgorithm(String name) {

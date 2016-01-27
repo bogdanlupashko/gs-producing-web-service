@@ -17,7 +17,7 @@
 package hello;
 
 import static org.junit.Assert.assertNotNull;
-import io.spring.guides.gs_producing_web_service.GetAlgorithmRequest;
+import org.bl.algorithm.ws.GetAlgorithmRequest;
 
 import org.bl.algorithm.endpoint.Application;
 import org.junit.Before;
@@ -39,7 +39,7 @@ public class ApplicationTests {
 	private Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
 
 	@Value("${local.server.port}")
-	private int port = 0;
+	private int port = 50500;
 
 	@Before
 	public void init() throws Exception {
