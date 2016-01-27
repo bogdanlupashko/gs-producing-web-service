@@ -17,8 +17,9 @@
 package hello;
 
 import static org.junit.Assert.assertNotNull;
-import io.spring.guides.gs_producing_web_service.GetCountryRequest;
+import io.spring.guides.gs_producing_web_service.GetAlgorithmRequest;
 
+import org.bl.algorithm.Application;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -42,13 +43,13 @@ public class ApplicationTests {
 
 	@Before
 	public void init() throws Exception {
-		marshaller.setPackagesToScan(ClassUtils.getPackageName(GetCountryRequest.class));
+		marshaller.setPackagesToScan(ClassUtils.getPackageName(GetAlgorithmRequest.class));
 		marshaller.afterPropertiesSet();
 	}
 
 	@Test
 	public void testSendAndReceive() {
-		GetCountryRequest request = new GetCountryRequest();
+		GetAlgorithmRequest request = new GetAlgorithmRequest();
 		request.setName("Spain");
 		assertNotNull(new WebServiceTemplate(marshaller).marshalSendAndReceive("http://localhost:"
 				+ port + "/ws", request));

@@ -1,4 +1,4 @@
-package hello;
+package org.bl.algorithm;
 
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
