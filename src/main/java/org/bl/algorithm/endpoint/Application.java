@@ -1,4 +1,4 @@
-package org.bl.algorithm;
+package org.bl.algorithm.endpoint;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

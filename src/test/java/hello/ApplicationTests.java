@@ -19,7 +19,7 @@ package hello;
 import static org.junit.Assert.assertNotNull;
 import io.spring.guides.gs_producing_web_service.GetAlgorithmRequest;
 
-import org.bl.algorithm.Application;
+import org.bl.algorithm.endpoint.Application;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

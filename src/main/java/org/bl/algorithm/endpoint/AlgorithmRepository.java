@@ -1,10 +1,10 @@
-package org.bl.algorithm;
+package org.bl.algorithm.endpoint;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.spring.guides.gs_producing_web_service.Algorithm;
+import org.bl.algorithm.ws.Algorithm;
 
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;

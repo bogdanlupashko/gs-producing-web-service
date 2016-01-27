@@ -1,4 +1,4 @@
-package org.bl.algorithm;
+package org.bl.algorithm.endpoint;
 
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;

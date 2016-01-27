@@ -1,4 +1,4 @@
-package org.bl.algorithm;
+package org.bl.algorithm.endpoint;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
@@ -6,8 +6,8 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import io.spring.guides.gs_producing_web_service.GetAlgorithmRequest;
-import io.spring.guides.gs_producing_web_service.GetAlgorithmResponse;
+import org.bl.algorithm.ws.GetAlgorithmRequest;
+import org.bl.algorithm.ws.GetAlgorithmResponse;
 
 @Endpoint
 public class AlgorithmEndpoint {
