@@ -11,7 +11,7 @@ import org.bl.algorithm.ws.GetAlgorithmResponse;
 
 @Endpoint
 public class AlgorithmEndpoint {
-	private static final String NAMESPACE_URI = "http://algorithm.bl.org/ws";
+	private static final String NAMESPACE_URI = "http://bl.org/algorithm/ws";
 
 	private AlgorithmRepository algorithmRepository;
 
